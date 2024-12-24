@@ -1,0 +1,24 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()
+for X = -10000, 10000, 512 do
+ 
+        for Z = -10000, 10000, 512 do
+ 
+                local P = Instance.new("Part")
+ 
+                P.Anchored = true
+ 
+                P.Locked = true
+ 
+                P.Size = Vector3.new(512,0,512)
+ 
+                P.CFrame = CFrame.new(X,0,Z)
+ 
+                P.BrickColor = BrickColor.Blue()
+                P.Material = Enum.Material.SmoothPlastic
+                P.Parent = game.Workspace
+
+
+ 
+        end
+ 
+end
